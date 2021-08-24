@@ -89,11 +89,13 @@ const App = () => {
         id='app-header'
         style={{ color: state.purple ? '#4C0099' : '#4169E1' }}
       >
-        <span>Type to 1Million</span>
-        <span>{isFlashing ? '| ' : ' '}</span>
+        <span id='title'>Type to 1Million</span>
+        <span id='flash'>
+          <pre>{isFlashing ? '|' : ' '}</pre>
+        </span>
       </div>
       <div id='typing-area'>
-        <TypingArea
+        {/* <TypingArea
           numberOfWords={state.numberOfWords}
           updateHistory={() => dispatch({ type: 'UPDATE_HISTORY' })}
           updateWpm={() => dispatch({ type: 'UPDATE_WPM' })}
@@ -107,7 +109,7 @@ const App = () => {
           purple={state.purple}
           toggleTextColor={() => dispatch({ type: 'UPDATE_TEXT_COLOR' })}
           gameWon={state.purchased.mysteryBox}
-        />
+        /> */}
       </div>
       <div id='wpm-indicator'>
         <h3>{state.wpm} wpm</h3>

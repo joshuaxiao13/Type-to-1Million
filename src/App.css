@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
 
 #app-header {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#title {
   font-family: 'Roboto Mono';
   font-size: 40px;
-  display: flex;
-  margin-left: 38%;
-  margin-top: 3%;
+}
+
+#flash {
+  font-size: 45px;
 }
 
 input {
@@ -20,11 +26,9 @@ pre {
   display: inline;
   white-space: pre-wrap;
   font-family: 'Roboto Mono';
-  font-size: 21px;
 }
 
 #typing-area {
-  vertical-align: middle;
   min-height: 13.3rem;
 }
 
@@ -57,10 +61,10 @@ i {
 
 #text-box {
   margin-top: 10%;
-  margin-inline: 20%;
+  margin-inline: 19%;
   text-align: left;
-  font-size: 1.3rem;
-  justify-content: center;
+  font-size: 24px;
+  vertical-align: center;
 }
 
 .shop-item {
@@ -184,7 +188,7 @@ i {
 
 #gem-balance-icon {
   font-size: 1.2rem;
-  margin-top: 10px;
+  margin-top: 9px;
   min-width: 1.5rem;
   text-align: right;
 }

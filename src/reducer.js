@@ -12,8 +12,8 @@ export const reducer = (state, action) => {
     let gemsGained =
       state.wpm >= state.goal_wpm
         ? state.goal_wpm
-        : Math.round((state.goal_wpm / 30) * (state.wpm - state.goal_wpm));
-    gemsGained *= state.multiplier; // multiplied effect
+        : Math.round((state.goal_wpm / 45) * (state.wpm - state.goal_wpm));
+    gemsGained *= state.multiplier;
     const time = new Date().toLocaleTimeString([], {
       hour: 'numeric',
       minute: '2-digit',

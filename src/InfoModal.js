@@ -31,8 +31,8 @@ const InfoModal = () => {
             <p>
               Type to 1Million <b>isn't your typical typing experience</b>.
               Here, you not only track and improve your typing speed, but earn
-              gems to purchase power-ups and work your way up to 1 million gems
-              to reveal the mystery prize. Type to 1Million is{' '}
+              gems along the way to purchase power-ups and work your way up to 1
+              million gems to reveal the mystery prize. Type to 1Million is{' '}
               <b>typing made fun</b>.
             </p>
           </div>
