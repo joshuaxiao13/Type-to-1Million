@@ -858,7 +858,7 @@ export const wordBank = [
   'toxic',
   'trick',
   'tryout',
-  'typimg',
+  'typing',
   'twist',
   'takeout',
   'teapot',
