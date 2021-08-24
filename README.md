@@ -11,7 +11,7 @@ Type to 1Million is <b>typing made fun</b>.
 
 <br />
 
-<img src='src/Photos/shop.jpeg' alt='screenshot of shop' width='60%'/>
+<img src='src/Photos/shop.jpeg' alt='screenshot of shop' width='68%'/>
 
 <br />
 
