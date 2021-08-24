@@ -95,7 +95,7 @@ const App = () => {
         </span>
       </div>
       <div id='typing-area'>
-        {/* <TypingArea
+        <TypingArea
           numberOfWords={state.numberOfWords}
           updateHistory={() => dispatch({ type: 'UPDATE_HISTORY' })}
           updateWpm={() => dispatch({ type: 'UPDATE_WPM' })}
@@ -109,7 +109,7 @@ const App = () => {
           purple={state.purple}
           toggleTextColor={() => dispatch({ type: 'UPDATE_TEXT_COLOR' })}
           gameWon={state.purchased.mysteryBox}
-        /> */}
+        />
       </div>
       <div id='wpm-indicator'>
         <h3>{state.wpm} wpm</h3>
