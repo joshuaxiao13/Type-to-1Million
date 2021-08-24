@@ -1,38 +1,209 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+#app-header {
+  font-family: 'Roboto Mono';
+  font-size: 40px;
+  display: flex;
+  margin-left: 38%;
+  margin-top: 3%;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-family: 'Roboto Mono';
+  color: transparent;
+  width: 0;
+}
+
+pre {
+  display: inline;
+  white-space: pre-wrap;
+  font-family: 'Roboto Mono';
+  font-size: 21px;
+}
+
+#typing-area {
+  vertical-align: middle;
+  min-height: 13.3rem;
+}
+
+#wpm-indicator {
+  color: grey;
+  margin-top: 4rem;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+h3,
+h4,
+h5 {
+  font-family: 'Roboto Mono';
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+i {
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  border-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#current-character {
+  background-color: #add8e6;
+  text-decoration: underline;
+}
+
+#text-box {
+  margin-top: 10%;
+  margin-inline: 20%;
+  text-align: left;
+  font-size: 1.3rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.shop-item {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#item-description {
+  text-align: left;
+  width: 27rem;
+}
+
+#item-picutre {
+  min-width: 1rem;
+}
+
+.item-button {
+  width: 7.2rem;
+  margin-top: 0.7rem;
+}
+
+#item-gem-icon {
+  font-size: 13.5px;
+}
+
+#green-notification-icon {
+  color: lightGreen;
+}
+
+#twenty-second-notification {
+  color: purple;
+}
+
+#timer-notification {
+  color: #ff0000;
+}
+
+.notification {
+  text-align: center;
+}
+
+#settings {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+#settings-number-of-words {
+  margin-top: 3px;
+}
+
+#settings-goal-wpm {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+#settings-input-range {
+  width: 11.4rem;
+  color: black;
+  font-size: 30px;
+}
+
+#email-icon {
+  margin-left: 1rem;
+}
+
+#history-body {
+  margin-top: 1rem;
+}
+
+#history-entry {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#time-div {
+  min-width: 7rem;
+}
+
+#time {
+  margin-top: 0.5rem;
+}
+
+#wpm {
+  min-width: 7rem;
+}
+
+#gems-delta {
+  display: flex;
+}
+
+#gems-delta-header {
+  min-width: 5.5rem;
+}
+
+#gem-history-icon {
+  font-size: 20px;
+  padding-top: 5px;
+  color: blue;
+}
+
+#history-footer {
+  justify-content: space-between;
+}
+
+#gems-button {
+  display: inline-flex;
+}
+
+#gems-balance {
+  padding-top: 6.5px;
+  font-family: 'Roboto Mono';
+  font-size: 23px;
+  text-align: left;
+}
+
+#gem-balance-icon {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  min-width: 1.5rem;
+  text-align: right;
+}
+
+#gems-balance-button {
+  justify-content: space-between;
+}
+
+#lower-bar {
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
+  margin-top: 4.5rem;
+}
+
+#second-paragraph {
+  margin-top: 15px;
+}
+
+.info-header {
+  margin-bottom: 28px;
 }
