@@ -24,8 +24,8 @@ const defaultState = {
   purchased: {
     purpleDrip: false,
     tenFold: false,
-    gemRush: false,
     theFlash: false,
+    gemRush: false,
     mysteryBox: false,
   },
   multiplier: 1,
@@ -42,8 +42,8 @@ const App = () => {
   const actions = [
     () => dispatch({ type: 'PURPLE_DRIP' }),
     () => dispatch({ type: 'TEN_FOLD' }),
-    () => dispatch({ type: 'GEM_RUSH' }),
     () => dispatch({ type: 'THE_FLASH' }),
+    () => dispatch({ type: 'GEM_RUSH' }),
     () => dispatch({ type: 'MYSTERY_BOX' }),
   ];
 
@@ -67,7 +67,7 @@ const App = () => {
       }, 40000);
       setTimeout(() => {
         setNotification({ ...notification, show: false });
-      }, 42000);
+      }, 43000);
       setTimeout(() => {
         setNotification({ show: true, message: 'Time Is Up' });
         dispatch({ type: 'HANDLE_PURCHASE' });
@@ -77,7 +77,7 @@ const App = () => {
         63000
       );
     }
-  }, [state.purchased.theFlash, notification]);
+  }, [state.purchased.theFlash]);
 
   return (
     <div className='App'>

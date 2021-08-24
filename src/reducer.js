@@ -46,7 +46,7 @@ export const reducer = (state, action) => {
     return { ...state, goal_wpm: action.payload.newGoalWpm };
   } else if (action.type === 'PURPLE_DRIP') {
     const newBalance =
-      state.gems_balance - (!state.purchased.purpleDrip && 200);
+      state.gems_balance - (!state.purchased.purpleDrip && 250);
     return {
       ...state,
       gems_balance: newBalance,
@@ -60,18 +60,18 @@ export const reducer = (state, action) => {
       purchased: { ...state.purchased, tenFold: true },
       multiplier: state.multiplier * 10,
     };
-  } else if (action.type === 'GEM_RUSH') {
-    return {
-      ...state,
-      gems_balance: state.gems_balance - 7500,
-      purchased: { ...state.purchased, gemRush: true },
-    };
   } else if (action.type === 'THE_FLASH') {
     return {
       ...state,
       numberOfWords: 1,
-      gems_balance: state.gems_balance - 150000,
+      gems_balance: state.gems_balance - 7500,
       purchased: { ...state.purchased, theFlash: true },
+    };
+  } else if (action.type === 'GEM_RUSH') {
+    return {
+      ...state,
+      gems_balance: state.gems_balance - 60900,
+      purchased: { ...state.purchased, gemRush: true },
     };
   } else if (action.type === 'MYSTERY_BOX') {
     setTimeout(() => window.open('https://youtu.be/QtBDL8EiNZo'), 2000);

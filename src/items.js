@@ -25,21 +25,21 @@ export const items = [
   },
   {
     id: 2,
-    url: gemRush,
-    name: 'gemRush',
-    title: 'Gem Rush',
-    description:
-      "Feeling confident? Match or surpass your set goal in the next typing to earn 100 times the number of gems. Failure is not an option, or you'll lose all your gems and start all over!",
-    cost: 7500,
-  },
-  {
-    id: 3,
     url: flash,
     name: 'theFlash',
     title: 'The Flash',
     description:
       "Think you have fast fingers? Prove it. You'll have 60 seconds to type as many one word texts as you possibly can.",
-    cost: 15000,
+    cost: 7500,
+  },
+  {
+    id: 3,
+    url: gemRush,
+    name: 'gemRush',
+    title: 'Gem Rush',
+    description:
+      "Feeling confident? Match or surpass your set goal in the next typing to earn 100 times the number of gems. Failure is not an option, or you'll lose all your gems and start all over!",
+    cost: 60900,
   },
   {
     id: 4,
