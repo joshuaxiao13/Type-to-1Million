@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
 
-function CenteredModal(props) {
+const CenteredModal = (props) => {
   let sum = 0;
   let idx = 0;
   return (
@@ -73,7 +71,7 @@ function CenteredModal(props) {
       </Modal.Footer>
     </Modal>
   );
-}
+};
 
 const HistoryModal = ({ history }) => {
   const [modalShow, setModalShow] = useState(false);
