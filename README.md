@@ -11,7 +11,7 @@ Type to 1Million is <b>typing made fun</b>.
 
 <br />
 
-<img src='src/Photos/shop.jpeg' alt='screenshot of shop' width='55%'/>
+<img src='src/Photos/shop.jpeg' alt='screenshot of shop' width='60%'/>
 
 <br />
 
@@ -19,7 +19,7 @@ Keep track of past typing scores and see your progress.
 
 <br />
 
-<img src='src/Photos/history.jpeg' alt='screenshot of past typings' width='55%'/>
+<img src='src/Photos/history.jpeg' alt='screenshot of past typings' width='60%'/>
 
 <br />
 
