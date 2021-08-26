@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useReducer } from 'react';
+import { useState, useEffect, useReducer } from 'react';
 import TypingArea from './TypingArea';
 import HistoryModal from './HistoryModal';
 import ShopModal from './ShopModal';
