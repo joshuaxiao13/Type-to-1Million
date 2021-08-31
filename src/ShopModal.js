@@ -33,7 +33,7 @@ const Item = ({
 }) => {
   const [notify, setNotify] = useState(false);
   const invisible =
-    gems_balance < cost || (title !== 'Purple Drip' && purchased[name]);
+    title !== 'Purple Drip' && (gems_balance < cost || purchased[name]);
 
   return (
     <div className='shop-item'>

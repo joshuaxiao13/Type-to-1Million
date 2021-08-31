@@ -137,7 +137,7 @@ export const wordBank = [
   'candour',
   'canny',
   'capacious',
-  'captialize',
+  'capitalize',
   'capitulate',
   'captivate',
   'career',
