@@ -60,7 +60,7 @@ i {
 
 #text-box {
   margin-top: 10%;
-  margin-inline: 19%;
+  margin-inline: 17%;
   text-align: left;
   font-size: 24px;
   vertical-align: center;
@@ -179,7 +179,7 @@ i {
 }
 
 #gems-balance {
-  padding-top: 0.41rem;
+  margin-top: 0.39rem;
   font-family: 'Roboto Mono';
   font-size: 23px;
   text-align: left;
@@ -200,7 +200,7 @@ i {
   display: flex;
   justify-content: space-evenly;
   vertical-align: middle;
-  margin-top: 4.5rem;
+  margin-top: 4.1rem;
 }
 
 #second-paragraph {
