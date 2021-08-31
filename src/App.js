@@ -16,7 +16,7 @@ const defaultState = {
   wpm: 0,
   charCount: 0,
   goal_wpm: 50,
-  gems_balance: 250,
+  gems_balance: 0,
   start_time: null,
   history: [],
   numberOfWords: 30,
