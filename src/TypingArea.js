@@ -121,6 +121,7 @@ const TypeBox = ({
                 style={{
                   color: textColor,
                   textDecorationColor: textColor,
+                  backgroundColor: purple ? '#E6E6FA' : '#add8e6',
                 }}
               >
                 {char}

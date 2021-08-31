@@ -55,7 +55,6 @@ i {
 }
 
 #current-character {
-  background-color: #add8e6;
   text-decoration: underline;
 }
 
@@ -180,7 +179,7 @@ i {
 }
 
 #gems-balance {
-  padding-top: 0.43rem;
+  padding-top: 0.41rem;
   font-family: 'Roboto Mono';
   font-size: 23px;
   text-align: left;
