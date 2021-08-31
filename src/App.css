@@ -186,9 +186,9 @@ i {
 }
 
 #gem-balance-icon {
-  font-size: 1.2rem;
-  margin-top: 9px;
-  min-width: 1.5rem;
+  font-size: 23px;
+  margin-top: 0.39rem;
+  padding-left: 0.2rem;
   text-align: right;
 }
 
