@@ -5,7 +5,7 @@ export const reducer = (state, action) => {
     return { ...state, start_time: Date.now() };
   } else if (action.type === 'UPDATE_WPM') {
     const newWpm = Math.ceil(
-      (12.0 * state.charCount) / ((Date.now() - state.start_time) / 1000)
+      (14.0 * state.charCount) / ((Date.now() - state.start_time) / 1000)
     );
     return { ...state, wpm: newWpm };
   } else if (action.type === 'UPDATE_HISTORY') {
